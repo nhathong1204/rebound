@@ -74,7 +74,7 @@ a {
   display: inline-block;
 }
 a:hover, a:focus {
-  color: #06a3da;
+  color: #82b440;
   text-decoration: none;
 }
 
@@ -147,7 +147,7 @@ Default btn CSS
 =================================================*/
 .default-btn {
   display: inline-block;
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   padding: 18px 35px;
   font-size: 15px;
@@ -244,7 +244,7 @@ Preloader Area CSS
 .preloader .loader .sbl-half-circle-spin {
   height: 50px;
   width: 50px;
-  color: #06a3da;
+  color: #82b440;
   display: inline-block;
   position: relative;
   border: 1px solid;
@@ -280,7 +280,7 @@ Preloader Area CSS
   max-width: 12px;
 }
 .buy-now-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff !important;
 }
 
@@ -314,14 +314,14 @@ Top Header Area CSS
   position: absolute;
   left: 0;
   top: 2px;
-  color: #06a3da;
+  color: #82b440;
   font-size: 16px;
 }
 .top-header-information li a {
   color: #222222;
 }
 .top-header-information li a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 
 .top-header-optional {
@@ -346,7 +346,7 @@ Top Header Area CSS
   width: 30px;
   line-height: 30px;
   background-color: #ffffff;
-  color: #06a3da;
+  color: #82b440;
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   text-align: center;
   font-size: 16px;
@@ -354,7 +354,7 @@ Top Header Area CSS
   transition: 0.6s;
 }
 .top-header-optional li a i:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   transform: translateY(-2px);
 }
@@ -373,7 +373,7 @@ Top Header Area CSS
   top: -2px;
 }
 .top-header-optional .languages-list .nice-select::after {
-  border-color: #06a3da;
+  border-color: #82b440;
   height: 8px;
   width: 8px;
   right: 5px;
@@ -399,7 +399,7 @@ Top Header Area CSS
   margin-right: 0;
 }
 .top-header-optional .languages-list .nice-select .list .option.selected {
-  background-color: #06a3da !important;
+  background-color: #82b440 !important;
   color: #ffffff;
   font-weight: normal;
 }
@@ -444,7 +444,7 @@ Middle Header Area CSS
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  color: #06a3da;
+  color: #82b440;
   font-size: 38px;
 }
 .middle-header-content li span {
@@ -510,7 +510,7 @@ Navbar Area CSS
   right: 0;
   width: 0;
   height: 2px;
-  background-color: #06a3da;
+  background-color: #82b440;
   transition: all ease 0.5s;
 }
 .main-navbar .navbar .navbar-nav .nav-item a i {
@@ -522,7 +522,7 @@ Navbar Area CSS
   margin-right: -5px;
 }
 .main-navbar .navbar .navbar-nav .nav-item a:hover, .main-navbar .navbar .navbar-nav .nav-item a:focus, .main-navbar .navbar .navbar-nav .nav-item a.active {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item a:hover::before, .main-navbar .navbar .navbar-nav .nav-item a:focus::before, .main-navbar .navbar .navbar-nav .nav-item a.active::before {
   width: 100%;
@@ -536,7 +536,7 @@ Navbar Area CSS
   margin-left: 0;
 }
 .main-navbar .navbar .navbar-nav .nav-item:hover a, .main-navbar .navbar .navbar-nav .nav-item.active a {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
   border: none;
@@ -576,7 +576,7 @@ Navbar Area CSS
   right: 15px;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover::before, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus::before, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active::before {
   display: none;
@@ -593,7 +593,7 @@ Navbar Area CSS
   color: #222222;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
   top: 0;
@@ -605,7 +605,7 @@ Navbar Area CSS
   color: #222222;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   top: 0;
@@ -617,7 +617,7 @@ Navbar Area CSS
   color: #222222;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   top: 0;
@@ -629,7 +629,7 @@ Navbar Area CSS
   color: #222222;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   top: 0;
@@ -641,7 +641,7 @@ Navbar Area CSS
   color: #222222;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   top: 0;
@@ -653,45 +653,45 @@ Navbar Area CSS
   color: #222222;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
@@ -715,11 +715,11 @@ Navbar Area CSS
   transition: 0.6s;
 }
 .main-navbar .navbar .others-options .option-item .search-btn a i:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-navbar .navbar .others-options .option-item .navbar-btn .default-btn {
   display: inline-block;
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   padding: 15px 25px;
   font-size: 15px;
@@ -768,7 +768,7 @@ Navbar Area CSS
   background-color: #222222;
 }
 .others-option-for-responsive .dot-menu:hover .inner .circle {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .others-option-for-responsive .container {
   position: relative;
@@ -806,11 +806,11 @@ Navbar Area CSS
   transition: 0.6s;
 }
 .others-option-for-responsive .option-inner .others-options .option-item .search-btn a i:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .others-option-for-responsive .option-inner .others-options .option-item .navbar-btn .default-btn {
   display: inline-block;
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   padding: 20px 35px;
   font-size: 16px;
@@ -862,13 +862,13 @@ Search Modal Style CSS
   line-height: 55px;
   background-color: #eeeeee;
   border-radius: 50px;
-  color: #06a3da;
+  color: #82b440;
   border: none;
   font-size: 35px;
   transition: 0.6s;
 }
 .searchmodal .modal-header button.close:hover, .searchmodal .modal-header button.close:focus {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 
@@ -897,7 +897,7 @@ Search Modal Style CSS
   transition: 0.6s;
 }
 .modal-search-form .search-field:focus {
-  border-color: #06a3da;
+  border-color: #82b440;
 }
 .modal-search-form .search-field:focus::-moz-placeholder {
   color: transparent;
@@ -908,7 +908,7 @@ Search Modal Style CSS
 .modal-search-form button {
   border: none;
   background-color: #eeeeee;
-  color: #06a3da;
+  color: #82b440;
   height: 40px;
   width: 40px;
   position: absolute;
@@ -929,7 +929,7 @@ Search Modal Style CSS
   transform: translateY(-52%);
 }
 .modal-search-form button:hover, .modal-search-form button:focus {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 
@@ -944,7 +944,7 @@ Search Modal Style CSS
     font-size: 15px;
   }
   .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li a.active {
-    color: #06a3da;
+    color: #82b440;
   }
   .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li a i {
     display: none;
@@ -1048,7 +1048,7 @@ Main Slides Area CSS
   animation-delay: 0.5s;
 }
 .main-slides-content h1 span {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-slides-content p {
   color: #222222;
@@ -1076,7 +1076,7 @@ Main Slides Area CSS
   height: 65px;
   width: 65px;
   line-height: 65px;
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   font-size: 40px;
   text-align: center;
@@ -1093,7 +1093,7 @@ Main Slides Area CSS
   color: #222222;
 }
 .main-slides-content .slides-btn .checkup-content span a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-slides-content .slides-btn .optional-btn {
   display: inline-block;
@@ -1108,7 +1108,7 @@ Main Slides Area CSS
   animation-delay: 2.5s;
 }
 .main-slides-content .slides-btn .optional-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 
@@ -1142,7 +1142,7 @@ Main Slides Area CSS
 }
 .home-slides.owl-theme .owl-nav [class*=owl-]:hover {
   color: #ffffff;
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .home-slides.owl-theme:hover .owl-nav {
   opacity: 1;
@@ -1184,7 +1184,7 @@ Main Banner Area CSS
   margin-bottom: 15px;
 }
 .main-banner-content h1 span {
-  color: #06a3da;
+  color: #82b440;
 }
 .main-banner-content p {
   color: #222222;
@@ -1204,7 +1204,7 @@ Main Banner Area CSS
   margin-left: 20px;
 }
 .main-banner-content .banner-btn .optional-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 
@@ -1225,17 +1225,17 @@ Features Area CSS
 }
 
 .single-features {
-  background-color: #06a3da;
+  background-color: #0694C9;
   padding: 45px 30px;
   border-radius: 10px;
   margin-bottom: 30px;
   transition: 0.6s;
 }
 .single-features.bg-f57e57 {
-  background-color: #f57e57;
+  background-color: #558C03;
 }
 .single-features.bg-4a6577 {
-  background-color: #4a6577;
+  background-color: #154001;
 }
 .single-features .content {
   position: relative;
@@ -1270,7 +1270,7 @@ Features Area CSS
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 10px;
-  border-bottom: 1px solid #06a3da;
+  border-bottom: 1px solid #82b440;
   margin-bottom: 30px;
   text-align: center;
   transition: 0.6s;
@@ -1284,11 +1284,11 @@ Features Area CSS
   width: 85px;
   line-height: 85px;
   background-color: #ffffff;
-  color: #06a3da;
+  color: #82b440;
   font-size: 45px;
   text-align: center;
   border-radius: 50%;
-  border: 1px dashed #06a3da;
+  border: 1px dashed #82b440;
   transition: 0.6s;
 }
 .single-features-box h3 {
@@ -1303,7 +1303,7 @@ Features Area CSS
   transform: translateY(-10px);
 }
 .single-features-box:hover .icon i {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 
@@ -1339,7 +1339,7 @@ Services Area CSS
   line-height: 75px;
   background-color: #ffffff;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-  color: #06a3da;
+  color: #82b440;
   font-size: 45px;
   text-align: center;
   border-radius: 50px;
@@ -1349,7 +1349,7 @@ Services Area CSS
   background-color: #ffffff;
   box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
   padding: 35px 30px;
-  border-bottom: 1px solid #06a3da;
+  border-bottom: 1px solid #82b440;
   border-radius: 0 0 10px 10px;
   transition: 0.6s;
 }
@@ -1372,11 +1372,11 @@ Services Area CSS
   transform: rotate(2deg) scale(1.2);
 }
 .single-services:hover .services-image .icon i {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 .single-services:hover .services-content {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .single-services:hover .services-content h3 a {
   color: #ffffff;
@@ -1403,7 +1403,7 @@ Services Area CSS
   width: 80px;
   line-height: 80px;
   font-size: 45px;
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   text-align: center;
   border-radius: 15px;
@@ -1417,7 +1417,7 @@ Services Area CSS
   color: #222222;
 }
 .single-services-box h3 a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .single-services-box p {
   font-size: 15px;
@@ -1426,8 +1426,8 @@ Services Area CSS
 .single-services-box .services-btn {
   display: inline-block;
   background-color: transparent;
-  border: 1px solid #06a3da;
-  color: #06a3da;
+  border: 1px solid #82b440;
+  color: #82b440;
   padding: 15px 35px;
   font-size: 15px;
   font-weight: 500;
@@ -1435,7 +1435,7 @@ Services Area CSS
   border-radius: 5px;
 }
 .single-services-box .services-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 .single-services-box:hover {
@@ -1475,7 +1475,7 @@ Services Area CSS
   line-height: 75px;
   background-color: #ffffff;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-  color: #06a3da;
+  color: #82b440;
   font-size: 45px;
   text-align: center;
   border-radius: 50px;
@@ -1508,7 +1508,7 @@ Services Area CSS
   transform: rotate(2deg) scale(1.2);
 }
 .single-services-item:hover .services-image .icon i {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 
@@ -1550,7 +1550,7 @@ Overview Area CSS
   color: #222222;
 }
 .overview-content p a {
-  color: #06a3da;
+  color: #82b440;
 }
 
 /*================================================
@@ -1564,6 +1564,7 @@ Appointment Overview Area CSS
 
 .appointment-overview-contact {
   position: relative;
+  margin-top: 200px;
 }
 .appointment-overview-contact::before {
   position: absolute;
@@ -1607,7 +1608,7 @@ Appointment Overview Area CSS
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  color: #06a3da;
+  color: #82b440;
   font-size: 45px;
   color: #ffffff;
 }
@@ -1622,7 +1623,7 @@ Appointment Overview Area CSS
   color: #ffffff;
 }
 .appointment-overview-contact .appointment-info .call-info li span a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .appointment-overview-contact .appointment-info .call-info li:last-child {
   margin-right: 0;
@@ -1636,7 +1637,8 @@ Appointment Overview Area CSS
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
   padding: 38px 30px;
   border-radius: 5px;
-  border-bottom: 1px solid #06a3da;
+  border-bottom: 1px solid #82b440;
+  margin-top: 200px;
 }
 .appointment-overview-box .content h4 {
   font-size: 25px;
@@ -1655,7 +1657,7 @@ Appointment Overview Area CSS
   width: 60px;
   height: 60px;
   line-height: 60px;
-  background-color: #06a3da;
+  background-color: #82b440;
   border-radius: 50%;
   position: absolute;
   left: 0;
@@ -1682,7 +1684,7 @@ Appointment Overview Area CSS
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  border: 2px solid #06a3da;
+  border: 2px solid #82b440;
   animation: ripple 1s linear infinite;
   transition: 0.6s;
 }
@@ -1700,13 +1702,13 @@ Appointment Overview Area CSS
 }
 .appointment-overview-box .make-appointment-content h4 i {
   margin-right: 5px;
-  color: #06a3da;
+  color: #82b440;
 }
 .appointment-overview-box .make-appointment-content form {
   text-align: center;
 }
 .appointment-overview-box .make-appointment-content form .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .appointment-overview-box .make-appointment-content form .form-group .form-control {
   display: block;
@@ -1731,7 +1733,7 @@ Appointment Overview Area CSS
 }
 .appointment-overview-box .make-appointment-content form .form-group .form-control:focus {
   box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .appointment-overview-box .make-appointment-content form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -1783,7 +1785,7 @@ About Area CSS
   line-height: 1.4;
 }
 .about-content h3 span {
-  color: #06a3da;
+  color: #82b440;
 }
 .about-content .about-list {
   padding-left: 0;
@@ -1808,7 +1810,7 @@ About Area CSS
   width: 25px;
   line-height: 30px;
   text-align: center;
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   border-radius: 50px;
   font-size: 14px;
@@ -1826,7 +1828,7 @@ About Area CSS
   line-height: 80px;
   background-color: #ffffff;
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
-  color: #06a3da;
+  color: #82b440;
   font-size: 45px;
   text-align: center;
   border-radius: 50%;
@@ -1846,7 +1848,7 @@ About Area CSS
   color: #6a6c72;
 }
 .about-content .about-info:hover i {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 
@@ -1855,7 +1857,7 @@ About Area CSS
   position: relative;
 }
 .about-image .about-inner-box {
-  background-color: #06a3da;
+  background-color: #82b440;
   padding: 35px 30px;
   border-radius: 10px;
   transition: 0.6s;
@@ -1920,7 +1922,7 @@ Core Features Area CSS
   margin-bottom: 30px;
   border-radius: 5px;
   transition: 0.6s;
-  border-bottom: 1px solid #06a3da;
+  border-bottom: 1px solid #82b440;
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
 }
 .single-core-features .icon {
@@ -1933,7 +1935,7 @@ Core Features Area CSS
   line-height: 80px;
   background-color: #ffffff;
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
-  color: #06a3da;
+  color: #82b440;
   font-size: 45px;
   text-align: center;
   border-radius: 50%;
@@ -1948,13 +1950,13 @@ Core Features Area CSS
   color: #222222;
 }
 .single-core-features h3 a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .single-core-features:hover {
   transform: translateY(-10px);
 }
 .single-core-features:hover .icon i {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 
@@ -1974,7 +1976,7 @@ Doctor Area CSS
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 0 0 10px 10px;
-  border-bottom: 2px solid #06a3da;
+  border-bottom: 2px solid #82b440;
 }
 .single-doctor .doctor-content h3 {
   font-size: 25px;
@@ -1999,7 +2001,7 @@ Doctor Area CSS
   line-height: 35px;
   border-radius: 50px;
   font-size: 16px;
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   transition: 0.6s;
 }
@@ -2039,7 +2041,7 @@ Review Area CSS
   line-height: 70px;
   background-color: #ffffff;
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
-  color: #06a3da;
+  color: #82b440;
   text-align: center;
   font-size: 30px;
   border-radius: 50%;
@@ -2076,10 +2078,10 @@ Review Area CSS
   transition: 0.6s;
 }
 .single-review-item:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .single-review-item:hover .icon i {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 .single-review-item:hover p {
@@ -2100,7 +2102,7 @@ Review Area CSS
   width: 20px;
   height: 20px;
   margin: 0 5px;
-  background: #06a3da;
+  background: #82b440;
   transition: 0.6s;
   border-radius: 50%;
   position: relative;
@@ -2120,7 +2122,7 @@ Review Area CSS
   visibility: hidden;
 }
 .review-slides.owl-theme .owl-dots .owl-dot:hover span, .review-slides.owl-theme .owl-dots .owl-dot.active span {
-  border-color: #06a3da;
+  border-color: #82b440;
 }
 .review-slides.owl-theme .owl-dots .owl-dot:hover span::before, .review-slides.owl-theme .owl-dots .owl-dot.active span::before {
   opacity: 1;
@@ -2152,7 +2154,7 @@ Blog Area CSS
   width: 60px;
   line-height: 60px;
   background-color: #ffffff;
-  color: #06a3da;
+  color: #82b440;
   text-align: center;
   font-size: 15px;
   border-radius: 50%;
@@ -2162,7 +2164,7 @@ Blog Area CSS
   bottom: 20px;
   left: 20px;
   display: inline-block;
-  background-color: #06a3da;
+  background-color: #82b440;
   padding: 5px 20px;
   border-radius: 50px;
 }
@@ -2174,7 +2176,7 @@ Blog Area CSS
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
   padding: 25px;
   border-radius: 0 0 10px 10px;
-  border-bottom: 2px solid #06a3da;
+  border-bottom: 2px solid #82b440;
 }
 .single-blog .blog-content h3 {
   font-size: 25px;
@@ -2186,7 +2188,7 @@ Blog Area CSS
   color: #222222;
 }
 .single-blog .blog-content h3 a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .single-blog .blog-content .blog-btn {
   font-size: 15px;
@@ -2195,7 +2197,7 @@ Blog Area CSS
   transition: 0.6s;
 }
 .single-blog .blog-content .blog-btn:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .single-blog .blog-content .entry-meta {
   padding-left: 0;
@@ -2232,7 +2234,7 @@ Blog Area CSS
   top: 50%;
   transform: translateY(-50%);
   font-size: 16px;
-  color: #06a3da;
+  color: #82b440;
 }
 .single-blog .blog-content .entry-meta li span {
   font-size: 15px;
@@ -2240,7 +2242,7 @@ Blog Area CSS
   font-weight: 500;
 }
 .single-blog .blog-content .entry-meta li span a {
-  color: #06a3da;
+  color: #82b440;
 }
 .single-blog:hover {
   transform: translateY(-10px);
@@ -2311,14 +2313,14 @@ Gallery Area CSS
   width: 40px;
   line-height: 40px;
   background-color: #ffffff;
-  color: #06a3da;
+  color: #82b440;
   text-align: center;
   font-size: 25px;
   border-radius: 50px;
   transition: 0.6s;
 }
 .single-gallery .content .icon a i:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 .single-gallery:hover {
@@ -2353,7 +2355,7 @@ Appointment Area CSS
   background-color: #ffffff;
   padding: 30px;
   border-radius: 10px;
-  border-bottom: 1px solid #06a3da;
+  border-bottom: 1px solid #82b440;
   max-width: 500px;
   margin-left: auto;
 }
@@ -2365,7 +2367,7 @@ Appointment Area CSS
 }
 .appointment-inner-box .appointment-form h4 i {
   margin-right: 5px;
-  color: #06a3da;
+  color: #82b440;
 }
 .appointment-inner-box .appointment-form form .form-group {
   margin-bottom: 15px;
@@ -2393,7 +2395,7 @@ Appointment Area CSS
 }
 .appointment-inner-box .appointment-form form .form-group .form-control:focus {
   box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .appointment-inner-box .appointment-form form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -2409,7 +2411,7 @@ Appointment Area CSS
   background-color: #ffffff;
   padding: 30px;
   border-radius: 10px;
-  border-bottom: 1px solid #06a3da;
+  border-bottom: 1px solid #82b440;
   max-width: 500px;
 }
 .appointment-form h4 {
@@ -2420,7 +2422,7 @@ Appointment Area CSS
 }
 .appointment-form h4 i {
   margin-right: 5px;
-  color: #06a3da;
+  color: #82b440;
 }
 .appointment-form form .form-group {
   margin-bottom: 15px;
@@ -2448,7 +2450,7 @@ Appointment Area CSS
 }
 .appointment-form form .form-group .form-control:focus {
   box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .appointment-form form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -2501,7 +2503,7 @@ Page Banner CSS
   font-size: 20px;
 }
 .page-banner-content .pages-list li span {
-  color: #06a3da;
+  color: #82b440;
 }
 .page-banner-content .pages-list li:first-child {
   margin-left: 0;
@@ -2514,14 +2516,14 @@ Page Banner CSS
   color: #ffffff;
 }
 .page-banner-content .pages-list li a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 
 /*================================================
 Fun Facts Area CSS
 =================================================*/
 .fun-facts-area {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .single-fun-fact {
@@ -2578,7 +2580,7 @@ Pricing Area CSS
 }
 .pricing-list-tab .tabs li.current a {
   color: #ffffff;
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .pricing-list-tab .tabs li:nth-child(1) a {
   border-radius: 30px 0 0 30px;
@@ -2603,7 +2605,7 @@ Pricing Area CSS
 }
 .single-pricing-table .price {
   font-size: 50px;
-  color: #06a3da;
+  color: #82b440;
   margin-top: 20px;
   margin-bottom: 25px;
   line-height: 1;
@@ -2622,7 +2624,7 @@ Pricing Area CSS
   margin-bottom: 0;
 }
 .single-pricing-table .pricing-features li i {
-  color: #06a3da;
+  color: #82b440;
   margin-right: 5px;
   font-size: 15px;
 }
@@ -2638,7 +2640,7 @@ Pricing Area CSS
   font-size: 15px;
 }
 .single-pricing-table:hover {
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 
 /*================================================
@@ -2663,7 +2665,7 @@ Pagination Area CSS
   text-align: center;
 }
 .pagination-area .page-numbers.current, .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus {
-  background: #06a3da;
+  background: #82b440;
   color: #ffffff;
 }
 .pagination-area .page-numbers i {
@@ -2710,7 +2712,7 @@ Login Area CSS
   font-weight: 400;
 }
 .login-form form .form-group .form-control:focus {
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
   background-color: transparent;
 }
 .login-form form .form-group .form-control:focus::-moz-placeholder {
@@ -2750,7 +2752,7 @@ Login Area CSS
   transition: 0.6s;
   bottom: 0;
   content: "";
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .login-form form .lost-your-password a:hover::before {
   width: 0;
@@ -2765,7 +2767,7 @@ Login Area CSS
   width: 100%;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   transition: 0.6s;
 }
@@ -2812,7 +2814,7 @@ Register Area CSS
   font-weight: 400;
 }
 .register-form form .form-group .form-control:focus {
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
   background-color: transparent;
 }
 .register-form form .form-group .form-control:focus::-moz-placeholder {
@@ -2836,7 +2838,7 @@ Register Area CSS
   width: 100%;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   transition: 0.6s;
 }
@@ -2876,13 +2878,13 @@ FAQ Area CSS
   right: 25px;
   top: 50%;
   transform: translateY(-50%);
-  color: #06a3da;
+  color: #82b440;
   font-size: 20px;
   transition: 0.6s;
 }
 .faq-accordion .accordion .accordion-title.active i::before {
   content: "\eb8b";
-  color: #06a3da;
+  color: #82b440;
 }
 .faq-accordion .accordion .accordion-content {
   display: none;
@@ -2975,7 +2977,7 @@ Coming Soon Area CSS
   margin-top: 35px;
 }
 .coming-soon-content #timer div {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   width: 130px;
   height: 130px;
@@ -3076,7 +3078,7 @@ Contact Area CSS
 }
 .contact-form form .form-group .form-control:focus {
   box-shadow: unset;
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .contact-form form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -3126,7 +3128,7 @@ Contact Area CSS
 }
 .contact-info .contact-info-content h2 a {
   display: inline-block;
-  color: #06a3da;
+  color: #82b440;
 }
 .contact-info .contact-info-content h2 a:hover {
   color: #124390;
@@ -3135,7 +3137,7 @@ Contact Area CSS
   color: #124390;
 }
 .contact-info .contact-info-content h2 a:not(:first-child):hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .contact-info .contact-info-content h2 span {
   display: block;
@@ -3168,8 +3170,8 @@ Contact Area CSS
 }
 .contact-info .contact-info-content .social li a:hover {
   color: #ffffff;
-  border-color: #06a3da;
-  background-color: #06a3da;
+  border-color: #82b440;
+  background-color: #82b440;
 }
 
 /*================================================
@@ -3210,7 +3212,7 @@ Services Details Area CSS
   height: 35px;
   width: 35px;
   line-height: 38px;
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   font-size: 16px;
   text-align: center;
@@ -3257,12 +3259,12 @@ Widget Sidebar CSS
   border-radius: 5px;
 }
 .widget-area .widget_search form .search-field:focus {
-  border-color: #06a3da;
+  border-color: #82b440;
 }
 .widget-area .widget_search form button {
   border: none;
   background-color: #eeeeee;
-  color: #06a3da;
+  color: #82b440;
   height: 40px;
   width: 40px;
   position: absolute;
@@ -3282,7 +3284,7 @@ Widget Sidebar CSS
   transform: translateY(-52%);
 }
 .widget-area .widget_search form button:hover, .widget-area .widget_search form button:focus {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 .widget-area .widget_info .content {
@@ -3312,7 +3314,7 @@ Widget Sidebar CSS
   line-height: 35px;
   border-radius: 50px;
   font-size: 16px;
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   transition: 0.6s;
 }
@@ -3326,7 +3328,7 @@ Widget Sidebar CSS
 }
 .widget-area .tagcloud a {
   display: inline-block;
-  background: #06a3da;
+  background: #82b440;
   color: #ffffff;
   padding: 10px 25px;
   border: none;
@@ -3358,7 +3360,7 @@ Widget Sidebar CSS
   margin-bottom: 0;
 }
 .widget-area .widget_categories ul li::before {
-  background: #06a3da;
+  background: #82b440;
   height: 10px;
   width: 10px;
   content: "";
@@ -3371,7 +3373,7 @@ Widget Sidebar CSS
   display: inline-block;
 }
 .widget-area .widget_categories ul li a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .widget-area .widget_grin_posts_thumb {
   position: relative;
@@ -3434,7 +3436,7 @@ Widget Sidebar CSS
   transition: 0.6s;
 }
 .widget-area .widget_grin_posts_thumb .item .info .title a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .widget-area .widget_instagram ul {
   padding-left: 0;
@@ -3493,7 +3495,7 @@ Widget Sidebar CSS
   top: 0;
   bottom: 0;
   z-index: 1;
-  background-color: #06a3da;
+  background-color: #82b440;
   transition: 0.6s;
   opacity: 0;
   visibility: hidden;
@@ -3529,7 +3531,7 @@ Blog Details Area CSS
   width: 60px;
   line-height: 60px;
   background-color: #ffffff;
-  color: #06a3da;
+  color: #82b440;
   text-align: center;
   font-size: 15px;
   border-radius: 50%;
@@ -3540,7 +3542,7 @@ Blog Details Area CSS
   bottom: 20px;
   left: 20px;
   display: inline-block;
-  background-color: #06a3da;
+  background-color: #82b440;
   padding: 5px 20px;
   border-radius: 50px;
   transition: 0.6s;
@@ -3549,7 +3551,7 @@ Blog Details Area CSS
   color: #ffffff;
 }
 .blog-details-desc .article-image:hover .tag {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 .blog-details-desc .article-image:hover .tag-two {
@@ -3583,10 +3585,10 @@ Blog Details Area CSS
   color: #6a6c72;
 }
 .blog-details-desc .article-content .entry-meta ul li a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .blog-details-desc .article-content .entry-meta ul li i {
-  color: #06a3da;
+  color: #82b440;
   margin-right: 2px;
 }
 .blog-details-desc .article-content .entry-meta ul li::before {
@@ -3596,7 +3598,7 @@ Blog Details Area CSS
   right: -15px;
   width: 6px;
   height: 1px;
-  background: #06a3da;
+  background: #82b440;
 }
 .blog-details-desc .article-content .entry-meta ul li:last-child {
   margin-right: 0;
@@ -3627,7 +3629,7 @@ Blog Details Area CSS
   height: 35px;
   width: 35px;
   line-height: 35px;
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   font-size: 16px;
   border-radius: 50px;
@@ -3643,7 +3645,7 @@ blockquote, .blockquote {
   padding: 30px !important;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-left: 3px solid #06a3da;
+  border-left: 3px solid #82b440;
   border-radius: 5px;
 }
 blockquote p, .blockquote p {
@@ -3695,8 +3697,8 @@ blockquote p, .blockquote p {
 }
 .comments-area .comment-body .reply a:hover {
   color: #ffffff;
-  background-color: #06a3da;
-  border-color: #06a3da;
+  background-color: #82b440;
+  border-color: #82b440;
 }
 .comments-area .comment-author {
   font-size: 16px;
@@ -3723,7 +3725,7 @@ blockquote p, .blockquote p {
   color: #6a6c72;
 }
 .comments-area .comment-metadata a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .comments-area .comment-respond {
   margin-top: 30px;
@@ -3776,7 +3778,7 @@ blockquote p, .blockquote p {
 }
 .comments-area .comment-respond input[type=date]:focus, .comments-area .comment-respond input[type=time]:focus, .comments-area .comment-respond input[type=datetime-local]:focus, .comments-area .comment-respond input[type=week]:focus, .comments-area .comment-respond input[type=month]:focus, .comments-area .comment-respond input[type=text]:focus, .comments-area .comment-respond input[type=email]:focus, .comments-area .comment-respond input[type=url]:focus, .comments-area .comment-respond input[type=password]:focus, .comments-area .comment-respond input[type=search]:focus, .comments-area .comment-respond input[type=tel]:focus, .comments-area .comment-respond input[type=number]:focus, .comments-area .comment-respond textarea:focus {
   background-color: transparent;
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .comments-area .comment-respond input[type=date]:focus::-moz-placeholder, .comments-area .comment-respond input[type=time]:focus::-moz-placeholder, .comments-area .comment-respond input[type=datetime-local]:focus::-moz-placeholder, .comments-area .comment-respond input[type=week]:focus::-moz-placeholder, .comments-area .comment-respond input[type=month]:focus::-moz-placeholder, .comments-area .comment-respond input[type=text]:focus::-moz-placeholder, .comments-area .comment-respond input[type=email]:focus::-moz-placeholder, .comments-area .comment-respond input[type=url]:focus::-moz-placeholder, .comments-area .comment-respond input[type=password]:focus::-moz-placeholder, .comments-area .comment-respond input[type=search]:focus::-moz-placeholder, .comments-area .comment-respond input[type=tel]:focus::-moz-placeholder, .comments-area .comment-respond input[type=number]:focus::-moz-placeholder, .comments-area .comment-respond textarea:focus::-moz-placeholder {
   color: transparent;
@@ -3828,7 +3830,7 @@ blockquote p, .blockquote p {
   width: 100%;
 }
 .comments-area .comment-respond .form-submit input {
-  background: #06a3da;
+  background: #82b440;
   border: none;
   color: #ffffff;
   padding: 10px 30px 10px;
@@ -3872,7 +3874,7 @@ Dentist Details Area CSS
   line-height: 35px;
   border-radius: 50px;
   font-size: 16px;
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   transition: 0.6s;
 }
@@ -3992,7 +3994,7 @@ Footer Area CSS
   position: relative;
 }
 .single-footer-widget .quick-links li a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .single-footer-widget .quick-links li a:hover::before {
   width: 100%;
@@ -4005,7 +4007,7 @@ Footer Area CSS
   width: 0;
   height: 1px;
   transition: 0.6s;
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .single-footer-widget .quick-links li:last-child {
   margin-bottom: 0;
@@ -4061,7 +4063,7 @@ Footer Area CSS
   font-size: 14px;
 }
 .single-footer-widget .footer-widget-blog .item .info span a {
-  color: #06a3da;
+  color: #82b440;
 }
 .single-footer-widget .footer-widget-blog .item .info h4 {
   margin-bottom: 0;
@@ -4075,7 +4077,7 @@ Footer Area CSS
   color: #ffffff;
 }
 .single-footer-widget .footer-widget-blog .item .info h4 a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .single-footer-widget .footer-information {
   padding-left: 0;
@@ -4100,7 +4102,7 @@ Footer Area CSS
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  color: #06a3da;
+  color: #82b440;
   font-size: 38px;
 }
 .single-footer-widget .footer-information li span {
@@ -4114,7 +4116,7 @@ Footer Area CSS
   color: #ffffff;
 }
 .single-footer-widget .footer-information li span a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 
 /*================================================
@@ -4137,7 +4139,7 @@ Copy Right Area CSS
 .copyright-area-content p a {
   display: inline-block;
   font-weight: 600;
-  color: #06a3da;
+  color: #82b440;
 }
 .copyright-area-content p a:hover {
   color: #ffffff;
@@ -4181,7 +4183,7 @@ Go Top CSS
   bottom: 20px;
 }
 .go-top:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
   transition: 0.6s;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -4438,7 +4440,7 @@ Navbar Area CSS
   background-color: #1DBFCC;
 }
 .dental-tourism-navbar .main-navbar .others-options .option-item .navbar-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .grin-care-navbar .main-navbar {
@@ -4505,7 +4507,7 @@ Navbar Area CSS
   background-color: #1DBFCC;
 }
 .grin-care-navbar .main-navbar .others-options .option-item .navbar-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .others-option-for-responsive .option-inner .others-options .option-item .cart-btn {
@@ -4579,7 +4581,7 @@ Dental Tourism Banner Area CSS
   background-color: #1DBFCC;
 }
 .dental-tourism-banner-content .banner-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 /*================================================
@@ -4629,7 +4631,7 @@ Dental Tourism Features Area CSS
   color: #486683;
 }
 .single-dental-tourism-features .content:hover .icon-image {
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 
 /*================================================
@@ -4694,7 +4696,7 @@ Dental Tourism About Area CSS
   background-color: #1DBFCC;
 }
 .dental-tourism-about-content .about-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 /*================================================
@@ -4715,7 +4717,7 @@ Dental Tourism Services Area CSS
   background-color: #1DBFCC;
 }
 .dental-tourism-services-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .dental-tourism-services-area .container-fluid {
   overflow: hidden;
@@ -4756,7 +4758,7 @@ Dental Tourism Services Area CSS
 }
 .dental-tourism-services-card:hover .services-image .icon i {
   background-color: #ffffff;
-  color: #06a3da;
+  color: #82b440;
 }
 .dental-tourism-services-card:hover .services-content h3 a {
   color: #1DBFCC;
@@ -4828,7 +4830,7 @@ Dental Tourism Choose Area CSS
   transition: 0.6s;
 }
 .dental-tourism-choose-image .video-btn i:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 /*================================================
@@ -4879,7 +4881,7 @@ Dental Tourism Appointment Area CSS
 }
 .dental-tourism-appointment-form form .form-group .form-control:focus {
   box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .dental-tourism-appointment-form form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -4928,7 +4930,7 @@ Dental Tourism Appointment Area CSS
   margin-right: 0;
 }
 .dental-tourism-appointment-form form .form-group .nice-select .list .option.selected {
-  background-color: #06a3da !important;
+  background-color: #82b440 !important;
   color: #ffffff;
   font-weight: normal;
 }
@@ -4937,7 +4939,7 @@ Dental Tourism Appointment Area CSS
   border: none;
 }
 .dental-tourism-appointment-form form .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 /*================================================
@@ -4951,7 +4953,7 @@ Dental Tourism Dentist Area CSS
   background-color: #1DBFCC;
 }
 .dental-tourism-dentist-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .dental-tourism-dentist-card .dentist-image {
@@ -5126,7 +5128,7 @@ Dental Tourism Review Area CSS
   background-color: #1DBFCC;
 }
 .dental-tourism-review-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .dental-tourism-review-card {
@@ -5218,7 +5220,7 @@ Dental Tourism Blog Area CSS
   background-color: #1DBFCC;
 }
 .dental-tourism-blog-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .dental-tourism-blog-card {
@@ -5529,7 +5531,7 @@ Skin Care Banner Area CSS
   background-color: #1DBFCC;
 }
 .skin-care-banner-content .banner-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .skin-care-banner-shape {
@@ -5664,7 +5666,7 @@ Skin Care About Area CSS
   color: #ffffff;
 }
 .skin-care-about-content .about-btn-with-info li .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .skin-care-about-content .about-btn-with-info li i {
   display: inline-block;
@@ -5893,7 +5895,7 @@ Skin Care Appointment Area CSS
 }
 .skin-care-appointment-form form .form-group .form-control:focus {
   box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .skin-care-appointment-form form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -5942,7 +5944,7 @@ Skin Care Appointment Area CSS
   margin-right: 0;
 }
 .skin-care-appointment-form form .form-group .nice-select .list .option.selected {
-  background-color: #06a3da !important;
+  background-color: #82b440 !important;
   color: #ffffff;
   font-weight: normal;
 }
@@ -5951,7 +5953,7 @@ Skin Care Appointment Area CSS
   border: none;
 }
 .skin-care-appointment-form form .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 /*================================================
@@ -5965,7 +5967,7 @@ Skin Care Review Area CSS
   background-color: #1DBFCC;
 }
 .skin-care-review-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .skin-care-review-card {
@@ -6119,7 +6121,7 @@ Skin Care Blog Area CSS
   background-color: #1DBFCC;
 }
 .skin-care-blog-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .skin-care-blog-card {
@@ -6451,7 +6453,7 @@ Eye Care Banner Area CSS
   background-color: #1DBFCC;
 }
 .eye-care-banner-content .banner-btn-with-info li.banner-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .eye-care-banner-content .banner-btn-with-info li.title {
   margin-left: 30px;
@@ -6498,7 +6500,7 @@ Eye Care Banner Area CSS
   padding-left: 4px;
 }
 .eye-care-slider.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 
@@ -6651,7 +6653,7 @@ Eye Care About Area CSS
   background-color: #1DBFCC;
 }
 .eye-care-about-content .about-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 /*================================================
@@ -6725,7 +6727,7 @@ Eye Care Services Area CSS
   background-color: #1DBFCC;
 }
 .eye-care-services-card .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .eye-care-services-card .number {
   font-size: 80px;
@@ -6768,7 +6770,7 @@ Eye Care Services Area CSS
 }
 .eye-care-services-slides.owl-theme .owl-nav [class*=owl-]:hover {
   color: #ffffff;
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .eye-care-services-slides.owl-theme:hover .owl-nav {
   opacity: 1;
@@ -6839,7 +6841,7 @@ Eye Care Team Area CSS
   background-color: #1DBFCC;
 }
 .eye-care-team-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .eye-care-team-card .team-image {
@@ -7126,7 +7128,7 @@ Eye Care Blog Area CSS
   background-color: #1DBFCC;
 }
 .eye-care-blog-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .eye-care-blog-card {
@@ -7264,7 +7266,7 @@ Newsletter Area CSS
   font-weight: 500;
 }
 .newsletter-inner-box .newsletter-form button:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 .newsletter-inner-box .newsletter-form #validator-newsletter {
@@ -12654,14 +12656,14 @@ Covid Footer Area CSS
   transition: 0.6s;
 }
 .navbar-area-optional .main-navbar .navbar .others-options .option-item .search-btn a:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .navbar-area-optional .main-navbar .navbar .others-options .option-item .navbar-btn .default-btn {
   background-color: #1DBFCC;
   border-radius: 50px;
 }
 .navbar-area-optional .main-navbar .navbar .others-options .option-item .navbar-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .navbar-area-optional.optional-wrap .main-navbar .navbar .mean-menu {
   width: 100%;
@@ -12743,7 +12745,7 @@ Emergency & Trauma Care Banner Area CSS
   font-weight: 500;
 }
 .emergency-trauma-care-banner-content .hotline .sub a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .emergency-trauma-care-banner-content .banner-boxes-item {
   margin-top: 45px;
@@ -12794,7 +12796,7 @@ Emergency & Trauma Care Banner Area CSS
   bottom: 0;
   width: 0%;
   height: 1px;
-  background-color: #06a3da;
+  background-color: #82b440;
   transition: 0.6s;
 }
 .emergency-trauma-care-banner-content .banner-boxes-item .item:hover {
@@ -12844,7 +12846,7 @@ Emergency & Trauma Care Banner Area CSS
   transition: 0.6s;
 }
 .emergency-trauma-care-banner-content .banner-bottom .right-content .icon a i:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .emergency-trauma-care-banner-image {
@@ -12912,7 +12914,7 @@ ETC Overview Area CSS
   padding: 12px 35px;
 }
 .etc-overview-list li a:hover {
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .etc-overview-list li:last-child {
   margin-right: 0;
@@ -13132,14 +13134,14 @@ ETC Services Area CSS
   bottom: 0;
   width: 0%;
   height: 1px;
-  background-color: #06a3da;
+  background-color: #82b440;
   transition: 0.6s;
 }
 .etc-services-card:hover {
   transform: translateY(-5px);
 }
 .etc-services-card:hover .icon {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .etc-services-card:hover::before {
   width: 100%;
@@ -13159,7 +13161,7 @@ ETC Services Area CSS
   text-decoration-line: underline;
 }
 .etc-view-all-btn span a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 
 /*================================================
@@ -13323,7 +13325,7 @@ ETC Emergency Tips Area CSS
 }
 .etc-appointment-form form .form-group .form-control:focus {
   box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .etc-appointment-form form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -13372,7 +13374,7 @@ ETC Emergency Tips Area CSS
   margin-right: 0;
 }
 .etc-appointment-form form .form-group .nice-select .list .option.selected {
-  background-color: #06a3da !important;
+  background-color: #82b440 !important;
   color: #ffffff;
   font-weight: normal;
 }
@@ -13382,7 +13384,7 @@ ETC Emergency Tips Area CSS
   border-radius: 50px;
 }
 .etc-appointment-form form .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .etc-appointment-location-btn {
@@ -13413,7 +13415,7 @@ ETC Emergency Tips Area CSS
   transition: 0.6s;
 }
 .etc-appointment-location-btn .icon a i:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 .etc-appointment-map {
@@ -13506,7 +13508,7 @@ ETC Team Area CSS
   transition: 0.6s;
 }
 .etc-team-card .image .share-link li a i:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .etc-team-card .content {
   margin-top: 30px;
@@ -13665,7 +13667,7 @@ ETC Hospital Area CSS
   bottom: 0;
   width: 0%;
   height: 1px;
-  background-color: #06a3da;
+  background-color: #82b440;
   transition: 0.6s;
 }
 .etc-hospital-card:hover {
@@ -14098,7 +14100,7 @@ OC About Area CSS
   font-weight: 500;
 }
 .oc-about-content .inner-info .hotline .sub a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 
 /*================================================
@@ -14135,7 +14137,7 @@ OC Services Area CSS
   text-decoration-line: underline;
 }
 .oc-services-content .view-all-btn span a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 
 .oc-services-items .item {
@@ -14260,7 +14262,7 @@ OC Team Area CSS
   transition: 0.6s;
 }
 .oc-team-card .image .share-link li a i:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .oc-team-card .content {
   margin-top: 30px;
@@ -14304,7 +14306,7 @@ OC Team Area CSS
   text-decoration-line: underline;
 }
 .oc-view-all-btn span a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 
 /*================================================
@@ -14477,7 +14479,7 @@ OC Appointment Area CSS
 }
 .oc-appointment-form form .form-group .form-control:focus {
   box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .oc-appointment-form form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -14526,7 +14528,7 @@ OC Appointment Area CSS
   margin-right: 0;
 }
 .oc-appointment-form form .form-group .nice-select .list .option.selected {
-  background-color: #06a3da !important;
+  background-color: #82b440 !important;
   color: #ffffff;
   font-weight: normal;
 }
@@ -14535,7 +14537,7 @@ OC Appointment Area CSS
   border: none;
 }
 .oc-appointment-form form .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 
 /*================================================
@@ -14660,7 +14662,7 @@ Shop Area CSS
   font-size: 22px;
 }
 .shop-item .image .cart-btn a i:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
   color: #ffffff;
 }
 .shop-item .content {
@@ -15093,7 +15095,7 @@ Cart Area CSS
   cursor: pointer;
   line-height: 50px;
   position: absolute;
-  color: #06a3da;
+  color: #82b440;
   background-color: transparent;
   transition: 0.6s;
 }
@@ -15172,7 +15174,7 @@ Cart Area CSS
   height: 55px;
   position: absolute;
   color: #ffffff;
-  background: #06a3da;
+  background: #82b440;
   transition: 0.6s;
   border-radius: 8px;
   font-size: 15px;
@@ -15275,7 +15277,7 @@ Checkout Area CSS
 }
 .checkout-info-form .form-group .form-control:focus {
   box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .checkout-info-form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -15324,7 +15326,7 @@ Checkout Area CSS
   margin-right: 0;
 }
 .checkout-info-form .form-group .nice-select .list .option.selected {
-  background-color: #06a3da !important;
+  background-color: #82b440 !important;
   color: #ffffff;
   font-weight: normal;
 }
@@ -15350,7 +15352,7 @@ Checkout Area CSS
   font-weight: 400;
 }
 .checkout-info-form .form-group .form-check .form-check-label a {
-  color: #06a3da;
+  color: #82b440;
 }
 .checkout-info-form .form-group .form-check .form-check-label a:hover {
   color: #1DBFCC;
@@ -15482,7 +15484,7 @@ Checkout Area CSS
   display: inline-block;
   width: 15px;
   height: 15px;
-  background: #06a3da;
+  background: #82b440;
   border-radius: 50%;
   transition: 0.6s;
 }
@@ -15579,7 +15581,7 @@ Products Details Area CSS
   color: #1DBFCC;
 }
 .products-details-desc .products-info li a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .products-details-desc .products-add-to-cart {
   margin-top: 25px;
@@ -15612,7 +15614,7 @@ Products Details Area CSS
   border-left: 1px solid #eeeeee;
 }
 .products-details-desc .products-add-to-cart .input-counter span:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .products-details-desc .products-add-to-cart .input-counter input {
   outline: 0;
@@ -15660,13 +15662,13 @@ Products Details Area CSS
   line-height: 35px;
   border-radius: 50%;
   color: #ffffff;
-  background-color: #06a3da;
-  border: 1px solid #06a3da;
+  background-color: #82b440;
+  border: 1px solid #82b440;
   text-align: center;
   margin-left: 2px;
 }
 .products-details-desc .products-share .social li a:hover {
-  color: #06a3da;
+  color: #82b440;
   background-color: transparent;
 }
 .products-details-desc .products-share .social li a.facebook {
@@ -15741,7 +15743,7 @@ Products Details Area CSS
   bottom: -2px;
   position: absolute;
   transition: 0.6s;
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .products-details-tabs .nav .nav-item .nav-link:hover, .products-details-tabs .nav .nav-item .nav-link.active {
   color: #222222;
@@ -15854,7 +15856,7 @@ Products Details Area CSS
 }
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .form-group .form-control:focus {
   box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -15927,7 +15929,7 @@ Products Details Area CSS
   content: "";
   width: 8px;
   height: 8px;
-  background: #06a3da;
+  background: #82b440;
   position: absolute;
   top: 5.5px;
   left: 6px;
@@ -15942,10 +15944,10 @@ Products Details Area CSS
   transform: scale(1);
 }
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:hover + label:before {
-  border-color: #06a3da;
+  border-color: #82b440;
 }
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:checked + label:before {
-  border-color: #06a3da;
+  border-color: #82b440;
 }
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form button {
   border: none;
@@ -15954,7 +15956,7 @@ Products Details Area CSS
   text-align: center;
   display: inline-block;
   color: #ffffff;
-  background-color: #06a3da;
+  background-color: #82b440;
   transition: 0.6s;
   border-radius: 5px;
   padding: 12px 40px;
