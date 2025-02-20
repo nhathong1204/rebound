@@ -81,7 +81,7 @@ Default CSS
   color: #f1f1f1 !important;
 }
 .theme-dark p a:hover {
-  color: #06a3da !important;
+  color: #82b440 !important;
 }
 .theme-dark a {
   color: #ffffff;
@@ -93,7 +93,7 @@ Default CSS
   color: #ffffff !important;
 }
 .theme-dark .h1 a:hover, .theme-dark .h2 a:hover, .theme-dark .h3 a:hover, .theme-dark .h4 a:hover, .theme-dark .h5 a:hover, .theme-dark .h6 a:hover, .theme-dark h1 a:hover, .theme-dark h2 a:hover, .theme-dark h3 a:hover, .theme-dark h4 a:hover, .theme-dark h5 a:hover, .theme-dark h6 a:hover {
-  color: #06a3da !important;
+  color: #82b440 !important;
 }
 .theme-dark .top-header-area {
   background-color: #0e0e0e;
@@ -139,10 +139,10 @@ Default CSS
   color: #ffffff;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item a.active {
-  color: #06a3da !important;
+  color: #82b440 !important;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item:hover a, .theme-dark .main-navbar .navbar .navbar-nav .nav-item:focus a, .theme-dark .main-navbar .navbar .navbar-nav .nav-item.active a {
-  color: #06a3da !important;
+  color: #82b440 !important;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
   background: #0e0e0e;
@@ -152,62 +152,62 @@ Default CSS
   border-bottom: 1px dashed #000000;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #06a3da !important;
+  color: #82b440 !important;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: #ffffff !important;
   border-bottom: 1px dashed #000000;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da !important;
+  color: #82b440 !important;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #ffffff;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #ffffff;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #ffffff;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #ffffff;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #ffffff;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .main-navbar .navbar .others-options .option-item .search-btn a i {
   color: #ffffff;
@@ -222,7 +222,7 @@ Default CSS
   color: #000000 !important;
 }
 .theme-dark .main-slides-content h1 span {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .main-slides-content p {
   color: #000000;
@@ -278,7 +278,7 @@ Default CSS
   color: #ffffff;
 }
 .theme-dark .dental-tourism-appointment-form form .form-group .form-control:focus {
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .theme-dark .dental-tourism-appointment-form form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -358,7 +358,7 @@ Default CSS
   color: #ffffff;
 }
 .theme-dark .skin-care-appointment-form form .form-group .form-control:focus {
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .theme-dark .skin-care-appointment-form form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -378,7 +378,7 @@ Default CSS
   color: #ffffff;
 }
 .theme-dark .widget-area .widget_categories ul li a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .widget-area .widget_info .content {
   background: #0e0e0e;
@@ -513,7 +513,7 @@ Default CSS
   color: #ffffff;
 }
 .theme-dark .single-review-item:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .theme-dark .dental-tourism-review-area {
   background-color: #0e0e0e;
@@ -1061,7 +1061,7 @@ Default CSS
   background: #0e0e0e;
 }
 .theme-dark .hospital-services-slides.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .theme-dark .hospital-services-card {
   background-color: #0e0e0e;
@@ -1078,7 +1078,7 @@ Default CSS
   background: #0e0e0e;
 }
 .theme-dark .hospital-team-slides.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .theme-dark .hospital-team-card {
   background-color: #0e0e0e;
@@ -1097,7 +1097,7 @@ Default CSS
   background: #0e0e0e;
 }
 .theme-dark .hospital-testimonials-slides.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .theme-dark .hospital-testimonials-card p {
   background-color: #0e0e0e;
@@ -1198,7 +1198,7 @@ Default CSS
   color: #ffffff;
 }
 .theme-dark .hospital-portfolio-card:hover .portfolio-content {
-  background-color: #06a3da;
+  background-color: #82b440;
 }
 .theme-dark .hospital-portfolio-details-info {
   background: #0e0e0e;
@@ -1299,7 +1299,7 @@ Default CSS
   color: #ffffff;
 }
 .theme-dark .etc-view-all-btn span a:hover {
-  color: #06a3da;
+  color: #82b440;
 }
 .theme-dark .etc-emergency-tips-content {
   background-color: #111111;
@@ -1322,7 +1322,7 @@ Default CSS
   color: #ffffff;
 }
 .theme-dark .etc-appointment-form form .form-group .form-control:focus {
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .theme-dark .etc-appointment-form form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -1444,7 +1444,7 @@ Default CSS
   color: #ffffff;
 }
 .theme-dark .oc-appointment-form form .form-group .form-control:focus {
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .theme-dark .oc-appointment-form form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -1509,7 +1509,7 @@ Default CSS
 }
 .theme-dark .checkout-info-form .form-group .form-control:focus {
   box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #82b440;
 }
 .theme-dark .checkout-info-form .form-group .form-control:focus::-moz-placeholder {
   color: transparent;
@@ -1538,7 +1538,7 @@ Default CSS
   border: 1px solid #ffffff;
 }
 .theme-dark .checkout-sidebar .payment-method p [type=radio]:checked + label::after, .theme-dark .checkout-sidebar .payment-method p [type=radio]:not(:checked) + label::after {
-  background: #06a3da;
+  background: #82b440;
 }
 .theme-dark .products-details-desc .products-info li span {
   color: #ffffff;
