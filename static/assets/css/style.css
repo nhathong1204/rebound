@@ -2028,6 +2028,7 @@ Review Area CSS
   position: relative;
   margin-top: 35px;
   transition: 0.6s;
+  height: 400px;
 }
 .single-review-item .icon {
   position: absolute;
@@ -2052,6 +2053,7 @@ Review Area CSS
   font-size: 17px;
   margin-bottom: 0;
   font-style: italic;
+  height: 200px;
 }
 .single-review-item .review-info {
   position: relative;
