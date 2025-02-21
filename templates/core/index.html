@@ -9,7 +9,7 @@
           content="{% trans 'Rebound' %}">
     <meta property="og:url" content="{% url 'core:index' %}" />
     <meta property="og:image"
-          content="https://storage.googleapis.com/prod-sg-vio-public-storage/web/home.jpg" />
+          content="{% static 'assets/images/main-slides/slides-bg1.jpg' %}" />
 {% endblock meta_header %}
 {% block content %}
 <!-- Start Main Slides Area -->
