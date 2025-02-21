@@ -1236,6 +1236,7 @@ Features Area CSS
 }
 .single-features.bg-4a6577 {
   background-color: #154001;
+  height: 250px;
 }
 .single-features .content {
   position: relative;
