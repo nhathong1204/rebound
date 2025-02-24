@@ -114,7 +114,13 @@
                     </div>
 
                     <div class="col-lg-8 col-md-12">
-                        <h3 style="float: right;"><span style="font-weight: 100; color: #6a6c72;padding-right:10px">Call Today</span> 253.854.8880</h3>
+                        <ul class="middle-header-content">
+                            <li>
+                                {% comment %} <i class="flaticon-emergency-call"></i> {% endcomment %}
+                                Call Today
+                                <span><a href="tel:235.854.8880">235.854.8880</a></span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -145,38 +151,133 @@
                                     <a href="{% url 'core:index' %}" class="nav-link active">
                                         Home
                                     </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="index.html" class="nav-link active">Child Care Hospital</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-2.html" class="nav-link">Hospital Services</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-3.html" class="nav-link">Diagnostic Center</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-4.html" class="nav-link">Dental Tourism</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-5.html" class="nav-link">Skin Care Hospital</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-6.html" class="nav-link">Eye Care Hospital</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-7.html" class="nav-link">Covid 19 Vaccination Center</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="index-8.html" class="nav-link">Hospital Website</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="index-9.html" class="nav-link">Eye Care Hospital Slider</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="index-10.html" class="nav-link">Video Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="index-11.html" class="nav-link">Emergency & Trauma Care</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="index-12.html" class="nav-link">Orthopedic Care</a>
+                                        </li>
+                                    </ul>
                                 </li>
 
+                                {% comment %} <li class="nav-item">
+                                    <a href="about-us.html" class="nav-link">About Us</a>
+                                </li> {% endcomment %}
+
                                 <li class="nav-item">
-                                    <a href="#our_services" class="nav-link">
-                                        Our Services
+                                    <a href="#" class="nav-link">
+                                        Our Services 
+                                        <i class='bx bx-caret-down'></i>
                                     </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="services.html" class="nav-link">Services</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="services-details.html" class="nav-link">Services Details</a>
+                                        </li>
+                                    </ul>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#our_doctors" class="nav-link">
-                                        Our Doctors
+                                    <a href="#" class="nav-link">
+                                        Our Dentists 
+                                        <i class='bx bx-caret-down'></i>
                                     </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="dentist.html" class="nav-link">Dentist</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="dentist-details.html" class="nav-link">Dentist Details</a>
+                                        </li>
+                                    </ul>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a href="#blog" class="nav-link">
-                                        Blog
+                                {% comment %} <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Pages 
+                                        <i class='bx bx-caret-down'></i>
                                     </a>
     
+                                        <li class="nav-item">
+                                            <a href="faq.html" class="nav-link">FAQ</a>
+                                        </li>
+                                        
+                                        <li class="nav-item">
+                                            <a href="error-404.html" class="nav-link">404 Error</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="terms-of-service.html" class="nav-link">Terms of Service</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a href="coming-soon.html" class="nav-link">Coming Soon</a>
+                                        </li>
+                                    </ul>
+                                </li> {% endcomment %}
+
                                 <li class="nav-item">
                                     <a href="#contact_us" class="nav-link">Contact Us</a>
                                 </li>
                             </ul>
 
                             <div class="others-options d-flex align-items-center">
-                                <div class="option-item">
+                                {% comment %} <div class="option-item">
                                     <div class="search-btn">
                                         <a class="#" href="#searchmodal" data-bs-toggle="modal" data-bs-target="#searchmodal">
                                             <i class="flaticon-search"></i>
                                         </a>
                                     </div>
-                                </div>
+                                </div> {% endcomment %}
 
                                 <div class="option-item">
                                     <div class="navbar-btn">
@@ -202,13 +303,13 @@
                     <div class="container">
                         <div class="option-inner">
                             <div class="others-options d-flex align-items-center">
-                                <div class="option-item">
+                                {% comment %} <div class="option-item">
                                     <div class="search-btn">
                                         <a class="#" href="#searchmodal" data-bs-toggle="modal" data-bs-target="#searchmodal">
                                             <i class="flaticon-search"></i>
                                         </a>
                                     </div>
-                                </div>
+                                </div> {% endcomment %}
 
                                 <div class="option-item">
                                     <div class="navbar-btn">
