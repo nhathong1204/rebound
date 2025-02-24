@@ -1236,7 +1236,7 @@ Features Area CSS
 }
 .single-features.bg-4a6577 {
   background-color: #154001;
-  height: 250px;
+  height: 161px;
 }
 .single-features .content {
   position: relative;
@@ -1365,6 +1365,7 @@ Services Area CSS
 .single-services .services-content p {
   font-size: 15px;
   transition: 0.6s;
+  height: 160px;
 }
 .single-services:hover {
   transform: translateY(-10px);
@@ -1560,12 +1561,11 @@ Appointment Overview Area CSS
 .appointment-overview-area {
   position: relative;
   z-index: 1;
-  margin-top: -150px;
+  margin-top: -30px;
 }
 
 .appointment-overview-contact {
   position: relative;
-  margin-top: 200px;
 }
 .appointment-overview-contact::before {
   position: absolute;
@@ -1639,7 +1639,6 @@ Appointment Overview Area CSS
   padding: 38px 30px;
   border-radius: 5px;
   border-bottom: 1px solid #82b440;
-  margin-top: 200px;
 }
 .appointment-overview-box .content h4 {
   font-size: 25px;
@@ -3945,7 +3944,7 @@ Footer Area CSS
   color: #ffffff;
 }
 .single-footer-widget p {
-  color: #ffffff;
+  color: #222222;
   margin-bottom: 0;
 }
 .single-footer-widget .signature {
