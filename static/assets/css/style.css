@@ -1365,7 +1365,7 @@ Services Area CSS
 .single-services .services-content p {
   font-size: 15px;
   transition: 0.6s;
-  height: 160px;
+  height: 200px;
 }
 .single-services:hover {
   transform: translateY(-10px);
@@ -1581,6 +1581,7 @@ Appointment Overview Area CSS
 }
 .appointment-overview-contact img {
   border-radius: 5px;
+  height: 412px;
 }
 .appointment-overview-contact .appointment-info {
   position: absolute;
@@ -1745,6 +1746,7 @@ Appointment Overview Area CSS
   border: none;
   padding: 12px 30px;
   font-size: 15px;
+  margin-top: 10px;
 }
 
 @keyframes ripple {
@@ -2052,7 +2054,7 @@ Review Area CSS
   font-size: 17px;
   margin-bottom: 0;
   font-style: italic;
-  height: 200px;
+  height: 250px;
 }
 .single-review-item .review-info {
   position: relative;
