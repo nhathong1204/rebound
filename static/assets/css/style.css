@@ -1236,6 +1236,7 @@ Features Area CSS
 }
 .single-features.bg-4a6577 {
   background-color: #154001;
+  height: 250px;
 }
 .single-features .content {
   position: relative;
@@ -2027,6 +2028,7 @@ Review Area CSS
   position: relative;
   margin-top: 35px;
   transition: 0.6s;
+  height: 400px;
 }
 .single-review-item .icon {
   position: absolute;
@@ -2051,6 +2053,7 @@ Review Area CSS
   font-size: 17px;
   margin-bottom: 0;
   font-style: italic;
+  height: 200px;
 }
 .single-review-item .review-info {
   position: relative;
@@ -3927,7 +3930,7 @@ Dentist Details Area CSS
 Footer Area CSS
 =================================================*/
 .footer-area {
-  background-color: #091e3e;
+  background-color: #F5F5F5;
 }
 
 .single-footer-widget {
@@ -3974,7 +3977,7 @@ Footer Area CSS
 }
 .single-footer-widget h3 {
   font-size: 25px;
-  color: #ffffff;
+  color: ##222222;
   margin-bottom: 30px;
   font-weight: 500;
 }
@@ -3989,7 +3992,7 @@ Footer Area CSS
 }
 .single-footer-widget .quick-links li a {
   display: inline-block;
-  color: #ffffff;
+  color: #222222;
   font-weight: 400;
   position: relative;
 }
@@ -4107,13 +4110,13 @@ Footer Area CSS
 }
 .single-footer-widget .footer-information li span {
   display: block;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
-  color: #ffffff;
+  color: #222222;
   margin-top: 8px;
 }
 .single-footer-widget .footer-information li span a {
-  color: #ffffff;
+  color: #222222;
 }
 .single-footer-widget .footer-information li span a:hover {
   color: #82b440;
@@ -4124,7 +4127,7 @@ Copy Right Area CSS
 =================================================*/
 .copyright-area {
   padding-bottom: 30px;
-  background-color: #091e3e;
+  background-color: #F5F5F5;
 }
 
 .copyright-area-content {
@@ -4133,7 +4136,7 @@ Copy Right Area CSS
   padding-top: 30px;
 }
 .copyright-area-content p {
-  color: #ffffff;
+  color: #222222;
   font-size: 15px;
 }
 .copyright-area-content p a {
