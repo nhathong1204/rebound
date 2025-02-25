@@ -2196,7 +2196,7 @@ Blog Area CSS
 }
 .single-blog .blog-content .blog-btn {
   font-size: 15px;
-  color: #222222;
+  color: #82b440;
   font-weight: 500;
   transition: 0.6s;
 }
@@ -2472,7 +2472,7 @@ Page Banner CSS
 .page-banner-area {
   padding-top: 125px;
   padding-bottom: 130px;
-  background-color: #124390;
+  background-color: #82b440;
 }
 
 .page-banner-content {
@@ -3525,10 +3525,11 @@ Blog Details Area CSS
 }
 .blog-details-desc .article-image img {
   border-radius: 30px;
+  width: 100%;
 }
 .blog-details-desc .article-image .tag {
   position: absolute;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
   display: inline-block;
   height: 60px;

@@ -50,12 +50,16 @@ INSTALLED_APPS = [
     # custom apps
     "core",
     "userauths",
+
     # third-party apps
     "rosetta",
+    "ckeditor",
+    "ckeditor_uploader",
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -238,3 +242,31 @@ JAZZMIN_UI_TWEAKS = {
         "success": "btn-success",
     },
 }
+
+# CKEditor settings
+CKEDITOR_UPLOAD_PATH = "uploads/"
+CKEDITOR_ALLOW_NONIMAGE_FILES = False
+CKEDITOR_RESTRICT_BY_USER = (
+    True  # Files can only be found within the user they uploaded to
+)
+CKEDITOR_CONFIGS = {
+    "default": {
+        "language": "vi",
+        "skin": "moono",
+        "codeSnippet_theme": "pojoaque",
+        "toolbar": "all",
+        "filebrowserBrowseUrl": "/list-images-page/",
+        "filebrowserUploadUrl": "/upload-ck-image-gc/",
+        "extraPlugins": ", ".join(
+            [
+                "codesnippet",
+                "widget",
+                "dialog",
+                "uploadimage",
+            ]
+        ),
+    }
+}
+
+
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"

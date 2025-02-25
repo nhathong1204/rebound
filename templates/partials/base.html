@@ -78,12 +78,6 @@
                                     <i class='bx bxl-instagram'></i>
                                 </a>
                             </li>
-
-                            <li class="languages-list">
-                                <select>
-                                    <option value="1">English</option>
-                                </select>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -130,9 +124,9 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav" ac="{{request.resolver_match.url_name}}">
                                 <li class="nav-item">
-                                    <a href="{% url 'core:index' %}" class="nav-link active">
+                                    <a href="{% url 'core:index' %}" class="nav-link {% if request.resolver_match.url_name == 'index' %}active{% endif %}">
                                         Home
                                     </a>
                                 </li>
@@ -144,20 +138,24 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#our_doctors" class="nav-link">
+                                    <a href="#our_doctors" class="nav-link {% if request.resolver_match.url_name == 'dr-gary' %}active{% endif %}">
                                         Our Doctors
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#contact_us" class="nav-link">Contact Us</a>
+                                    <a href="{% url 'core:blogs' %}" class="nav-link {% if request.resolver_match.url_name == 'blogs' or request.resolver_match.url_name == 'blog-detail' %}active{% endif %}">Blogs</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="{% url 'core:contact-us' %}" class="nav-link {% if request.resolver_match.url_name == 'contact-us' %}active{% endif %}">Contact Us</a>
                                 </li>
                             </ul>
 
                             <div class="others-options d-flex align-items-center">
                                 <div class="option-item">
                                     <div class="navbar-btn">
-                                        <a href="#contact_us" class="default-btn">Book Appointment</a>
+                                        <a href="{% url 'core:contact-us' %}" class="default-btn">Book Appointment</a>
                                     </div>
                                 </div>
                             </div>
@@ -332,7 +330,7 @@
         <!-- End Go Top Area -->
 
         <!-- Jquery Slim JS -->
-        <script data-cfasync="false" src="{% static '../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script><script src="{% static 'assets/js/jquery.min.js' %}"></script>
+        <script src="{% static 'assets/js/jquery.min.js' %}"></script>
         <!-- Bootstrap JS -->
         <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
         <!-- MeanMenu JS -->
@@ -357,5 +355,6 @@
         <script src="{% static 'assets/js/wow.min.js' %}"></script>
         <!-- Custom JS -->
         <script src="{% static 'assets/js/main.js' %}"></script>
+        <script src="{% static 'assets/js/function.js' %}"></script>
     </body>
 </html>

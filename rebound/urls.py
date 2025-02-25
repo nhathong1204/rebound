@@ -10,6 +10,7 @@ urlpatterns = i18n_patterns(
     path("rosetta/", include("rosetta.urls")),
     path("user/", include("userauths.urls")),
     path("", include("core.urls")),
+    path("ckeditor/", include("ckeditor_uploader.urls")),
     prefix_default_language=False,
 )
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
