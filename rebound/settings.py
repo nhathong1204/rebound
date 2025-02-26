@@ -171,12 +171,12 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "userauths.User"
 
 EMAIL_HOST = "smtp.gmail.com"
-EMAIL_HOST_USER = "nhathong1204@gmail.com"
-EMAIL_HOST_PASSWORD = "arnvalhkaoetgwxn"
+EMAIL_HOST_USER = "reboundsportsmedicine@gmail.com"
+EMAIL_HOST_PASSWORD = "hyaastlfijxzsgid"
 EMAIL_PORT = "587"
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = "VioTech <contact@vioapp.io>"
-ADMIN_EMAIL = "nhathong1204@gmail.com"
+DEFAULT_FROM_EMAIL = "ReboundSportsMed <reboundsportsmedicine@gmail.com"
+ADMIN_EMAIL = "reboundsportsmedicine@gmail.com"
 
 JAZZMIN_SETTINGS = {
     "site_header": "Rebound",
