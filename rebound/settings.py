@@ -186,7 +186,7 @@ JAZZMIN_SETTINGS = {
     "welcome_sign": "Welcome to Rebound, Login Now.",
     "topmenu_links": [
         {"name": "Home", "url": "admin:index", "permissions": ["auth.view_user"]},
-        {"name": "Company", "url": "/admin/addons/company/"},
+        {"name": "Live Chat Manager", "url": "https://dashboard.tawk.to/#/dashboard/67bede29dd361d191548fb3e"},
         {"name": "Users", "url": "/admin/userauths/user/"},
     ],
     "order_with_respect_to": [
