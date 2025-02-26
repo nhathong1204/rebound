@@ -31,9 +31,9 @@ env.read_env(str(BASE_DIR / ".env"))
 SECRET_KEY = env("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = env("DEBUG")
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [] if not env("ALLOWED_HOSTS") else env("ALLOWED_HOSTS").split(",")
 
 
 # Application definition
@@ -170,13 +170,13 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 AUTH_USER_MODEL = "userauths.User"
 
-EMAIL_HOST = "smtp.gmail.com"
-EMAIL_HOST_USER = "reboundsportsmedicine@gmail.com"
-EMAIL_HOST_PASSWORD = "hyaastlfijxzsgid"
-EMAIL_PORT = "587"
-EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = "ReboundSportsMed <reboundsportsmedicine@gmail.com"
-ADMIN_EMAIL = "reboundsportsmedicine@gmail.com"
+EMAIL_HOST = env("EMAIL_HOST")
+EMAIL_HOST_USER = env("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD")
+EMAIL_PORT = env("EMAIL_PORT")
+EMAIL_USE_TLS = env("EMAIL_USE_TLS")
+DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL")
+ADMIN_EMAIL = env("ADMIN_EMAIL")
 
 JAZZMIN_SETTINGS = {
     "site_header": "Rebound",
