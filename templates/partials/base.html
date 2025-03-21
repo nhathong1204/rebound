@@ -143,9 +143,11 @@
                                     </a>
                                 </li>
 
+                                {% if blogs %}
                                 <li class="nav-item">
                                     <a href="{% url 'core:blogs' %}" class="nav-link {% if request.resolver_match.url_name == 'blogs' or request.resolver_match.url_name == 'blog-detail' %}active{% endif %}">Blogs</a>
                                 </li>
+                                {% endif %}
 
                                 <li class="nav-item">
                                     <a href="{% url 'core:contact-us' %}" class="nav-link {% if request.resolver_match.url_name == 'contact-us' %}active{% endif %}">Contact Us</a>
