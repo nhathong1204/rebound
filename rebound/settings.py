@@ -34,7 +34,7 @@ env.read_env(str(BASE_DIR / ".env"))
 SECRET_KEY = env("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env("DEBUG")
+DEBUG = False
 
 ALLOWED_HOSTS = [] if not env("ALLOWED_HOSTS") else env("ALLOWED_HOSTS").split(",")
 
