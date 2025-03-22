@@ -132,11 +132,18 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="#our_services" class="nav-link">Our Services</a>
+                                            {% if request.resolver_match.url_name == "index" %}
+                                                <a href="#our_services" class="nav-link">Our Services</a>
+                                            {% else %}
+                                                <a href="{% url 'core:index' %}#our_services" class="nav-link">Our Services</a>
+                                            {% endif %}
                                         </li>
-
                                         <li class="nav-item">
-                                            <a href="#our_teams" class="nav-link">Our Teams</a>
+                                            {% if request.resolver_match.url_name == "index" %}
+                                                <a href="#our_teams" class="nav-link">Our Teams</a>
+                                            {% else %}
+                                                <a href="{% url 'core:index' %}#our_teams" class="nav-link">Our Teams</a>
+                                            {% endif %}
                                         </li>
                                     </ul>
                                 </li>
