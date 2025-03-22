@@ -1619,6 +1619,7 @@ Appointment Overview Area CSS
   font-weight: 500;
   color: #ffffff;
   margin-top: 5px;
+  margin-left: 57px;
 }
 .appointment-overview-contact .appointment-info .call-info li span a {
   color: #ffffff;
