@@ -4,9 +4,9 @@ Default CSS
 .switch-box {
   position: fixed;
   z-index: 1;
-  right: 1%;
+  left: 1%;
   transform: translateX(-5%);
-  bottom: 155px;
+  bottom: 3.8%;
 }
 .switch-box .switch {
   position: relative;
