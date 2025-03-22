@@ -21,7 +21,11 @@
                 <p>Experience exceptional chiropractic care and rehabilitation services at Rebound SportsMed in Kent!</p>
                 
                 <div class="slides-btn">
-                    <a href="#contact_us" class="default-btn">Book Appointment</a>
+                    {% if request.resolver_match.url_name == "index" %}
+                        <a href="#contact_us" class="default-btn">Book Appointment</a>
+                    {% else %}
+                        <a href="{% url 'core:index' %}#contact_us" class="default-btn">Book Appointment</a>
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -324,7 +328,7 @@
                 <div class="about-content">
                     <span class="sub-title">
                         <i class="flaticon-hashtag-symbol"></i>
-                        Our Teams
+                        Our Team
                     </span>
                     <h3>Meet <span>Dr. Gary Blackburn, DC, FACFN</span></h3>
                     <p>At Rebound SportsMed, Dr. Gary Blackburn brings over 30 years of expertise in sports medicine, clinical neuroscience, and brain-based rehabilitation to help patients optimize their health, function, and performance.</p>
