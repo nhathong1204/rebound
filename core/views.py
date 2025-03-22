@@ -42,7 +42,7 @@ def ajax_contact_form(request):
     full_name = request.GET.get("full_name")
     email = request.GET.get("email")
     phone = request.GET.get("phone")
-    subject = request.GET.get("subject")
+    subject = request.GET.get("subject") or "Make An Appointment"
     message = request.GET.get("message")
     
     from_email = settings.DEFAULT_FROM_EMAIL

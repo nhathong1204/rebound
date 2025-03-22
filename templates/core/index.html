@@ -78,7 +78,7 @@
                 <div class="section-title-warp">
                     <span class="sub-title">
                         <i class="flaticon-hashtag-symbol"></i>
-                        Our Best Services
+                        Our Services
                     </span>
                     <h2>Enjoy Specialized Care Through Precision, Artistry, and Experience</h2>
                 </div>
@@ -114,22 +114,6 @@
                             <a href="javascript:void(0)">Performance Testing</a>
                         </h3>
                         <p>We assess your movement, strength, and flexibility to identify areas for improvement. Our data-driven approach helps maximize your physical potential.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="single-services">
-                    <div class="services-image">
-                        <a href="javascript:void(0)"><img src="{% static 'assets/images/services/services-3.jpg' %}" alt="image"></a>
-
-                    </div>
-
-                    <div class="services-content">
-                        <h3>
-                            <a href="javascript:void(0)">Spinal Decompression</a>
-                        </h3>
-                        <p>This therapy relieves pressure on your spine, improving mobility and reducing nerve compression. It counteracts daily postural stress and promotes long-term spinal health.</p>
                     </div>
                 </div>
             </div>
@@ -211,7 +195,7 @@
                             </li>
                         </ul>
                         <p>Feel Better - Move Better</p>
-                        <a href="javascript:void(0)" class="default-btn">Contact Us</a>
+                        <a href="{% url 'core:contact-us' %}" class="default-btn">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -235,23 +219,27 @@
 
                         <div class="col-lg-6">
                             <div class="make-appointment-content">
-                                <h4 style="text-align: center; margin-top: 34px;">Make An Appointment</h4> 
+                                <h4 style="text-align: center; margin-top: 34px;">
+                                    <i class="flaticon-calendar"></i>
+                                    Make An Appointment
+                                </h4> 
 
-                                <form>
+                                <form method="POST" id="contact-form-ajax" action="">
+                                    {% csrf_token %}
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
+                                        <input type="text" name="full_name" id="full_name" required="" class="form-control" placeholder="Name">
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Email">
+                                        <input type="text" name="email" id="email" class="form-control" required="" placeholder="Email" required>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Phone">
+                                        <input type="text" name="phone" id="phone" required="" class="form-control" placeholder="Phone" required>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Leave your message">
+                                        <input type="text" name="message" class="form-control" id="message" placeholder="Leave your message" required>
                                     </div>
     
                                     <button type="submit" class="default-btn">Book Appointment</button>

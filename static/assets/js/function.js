@@ -7,6 +7,7 @@ $(document).ready(function() {
         let phone = $("#phone").val()
         let subject = $("#subject").val()
         let message = $("#message").val()
+        console.log(full_name, email, phone, subject, message)
 
         $.ajax({
             url: "/ajax-contact-form",
