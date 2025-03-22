@@ -4156,7 +4156,7 @@ Go Top CSS
   position: fixed;
   cursor: pointer;
   bottom: -100px;
-  left: 5.5%;
+  left: 1.4%;
   color: #ffffff;
   background-color: #222222;
   z-index: 4;
@@ -4184,7 +4184,7 @@ Go Top CSS
 .go-top.active {
   opacity: 1;
   visibility: visible;
-  bottom: 20px;
+  bottom: 66px;
 }
 .go-top:hover {
   background-color: #82b440;
