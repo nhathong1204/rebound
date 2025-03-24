@@ -64,7 +64,3 @@ def ajax_contact_form(request):
         "success": True,
         "message": " Message sent successfully."
     })
-
-
-def error(request, exception):
-    return render(request, "error.html", {"message": exception})
