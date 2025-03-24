@@ -56,10 +56,6 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
-@import url("../../../../css2");
-@import url("../../../../css2-1");
-@import url("../../../../css2-2");
-@import url("../../../../css2-3");
 body {
   padding: 0;
   margin: 0;
