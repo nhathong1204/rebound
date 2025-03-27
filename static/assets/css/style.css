@@ -2181,12 +2181,14 @@ Blog Area CSS
   border-bottom: 2px solid #82b440;
   height: 338px;
 }
+.single-blog .child_blog_content {
+  height: 225px;
+}
 .single-blog .blog-content h3 {
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 12px;
   line-height: 1.4;
-  height: 104px;
 }
 .single-blog .blog-content h3 a {
   color: #222222;
