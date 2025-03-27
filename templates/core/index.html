@@ -565,7 +565,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-blog">
                         <div class="blog-image">
-                            <a href="{% url 'core:blog-detail' blog.slug %}"><img src="{% static '{{ blog.image.url }}' %}" alt="image"></a>
+                            <a href="{% url 'core:blog-detail' blog.slug %}"><img src="{{ blog.image.url }}" style="height: 280px;" alt="image"></a>
 
                             <div class="tag">{{ blog.created_at|date:"d M" }}</div>
                         </div>
@@ -573,7 +573,7 @@
                             <h3>
                                 <a href="{% url 'core:blog-detail' blog.slug %}">{{ blog.title }}</a>
                             </h3>
-                            <p>{{ blog.mini_description|truncatewords:30 }}</p>
+                            <p style="height: 110px;">{{ blog.mini_description|truncatewords:30 }}</p>
                             <!-- <a href="{% url 'core:blog-detail' blog.slug %}" class="blog-btn">Read More</a> -->
 
                             <ul class="entry-meta">
