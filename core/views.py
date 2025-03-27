@@ -120,3 +120,22 @@ def download_pdf(request, file_id):
         response["Content-Disposition"] = f'attachment; filename="{file_mapping[file_id]}"'
 
         return response
+
+def serve_media(request, path):
+    # Specify the full path of the file
+    file_path = os.path.join(settings.MEDIA_ROOT, path)
+    
+    # Check if file exists
+    if not os.path.exists(file_path):
+        raise Http404("Media file not found")
+    
+    # Determine content type
+    content_type, encoding = mimetypes.guess_type(file_path)
+    content_type = content_type or "application/octet-stream"
+    
+    # Read file and return response
+    with open(file_path, "rb") as f:
+        response = HttpResponse(f.read(), content_type=content_type)
+        if encoding:
+            response["Content-Encoding"] = encoding
+        return response

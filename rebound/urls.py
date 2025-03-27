@@ -5,6 +5,7 @@ from django.contrib import admin
 from django.urls import include, path
 from rebound.sitemaps import BlogSitemap, StaticViewSitemap
 from django.contrib.sitemaps.views import sitemap
+from core.views import serve_media
 
 sitemaps = {
     "blog": BlogSitemap,
@@ -18,7 +19,8 @@ urlpatterns = i18n_patterns(
     path("user/", include("userauths.urls")),
     path("", include("core.urls")),
     path("ckeditor/", include("ckeditor_uploader.urls")),
-    path("sitemap.xml", sitemap, {'sitemaps': sitemaps}, name="django.contrib.sitemaps.views.sitemap"),
+    path("sitemap.xml", sitemap, {"sitemaps": sitemaps}, name="django.contrib.sitemaps.views.sitemap"),
+    path(r"^media/(?P<path>.*)$", serve_media),
     prefix_default_language=False,
 )
 
