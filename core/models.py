@@ -1,4 +1,5 @@
 import uuid
+from django.urls import reverse
 from ckeditor_uploader.fields import RichTextUploadingField
 from django.conf import settings
 from django.db import models
@@ -23,6 +24,10 @@ class Blog(models.Model):
     created_at = models.DateTimeField(auto_now_add=True, blank=True, null=True)
     updated_at = models.DateTimeField(auto_now=True, blank=True, null=True)
 
+
+    def get_absolute_url(self):
+        return reverse("core:blog-detail", args=[str(self.slug)])
+
     def __str__(self) -> str:
         return self.title
 
@@ -30,7 +35,6 @@ class Blog(models.Model):
         if not self.slug:
             self.slug = slugify(self.title)
         super().save(*args, **kwargs)
-
 
 class ContactUs(models.Model):
     full_name = models.CharField(max_length=200)

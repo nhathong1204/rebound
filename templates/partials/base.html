@@ -157,6 +157,10 @@
                                 <li class="nav-item">
                                     <a href="{% url 'core:contact-us' %}" class="nav-link {% if request.resolver_match.url_name == 'contact-us' %}active{% endif %}">Contact Us</a>
                                 </li>
+
+                                <li class="nav-item">
+                                    <a href="{% url 'core:intake-forms' %}" class="nav-link {% if request.resolver_match.url_name == 'intake-forms' %}active{% endif %}">Intake Forms</a>
+                                </li>
                             </ul>
 
                             <div class="others-options d-flex align-items-center">
@@ -267,7 +271,7 @@
 
                             <ul class="quick-links">
                                 <li>
-                                    <strong style="font-size: 16px;">Open Hour</strong>
+                                    <strong style="font-size: 16px;">Open Hours</strong>
                                 </li>
                                 <li>
                                     <strong style="font-size: 16px;">Monday to Thursday</strong>

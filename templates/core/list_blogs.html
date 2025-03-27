@@ -9,7 +9,7 @@
           content="Rebound Sports Medicine in Kent, WA provides expert chiropractic care and rehabilitation for sports injuries, auto accidents, and more. Dr. Gary Blackburn and his team focus on improving your overall wellness through personalized care. Whether you’re recovering from an injury or seeking pain r">
     <meta property="og:url" content="{% url 'core:blogs' %}" />
     <meta property="og:image"
-          content="http://static1.squarespace.com/static/63370133e12a533239738459/t/6712b9273bd4956abe798247/1729280295185/Rebound+Master+Logo.png?format=1500w" />
+          content="{% static 'assets/images/rebound_master_logo.png' %}" />
 {% endblock meta_header %}
 {% block content %}
 <!-- Start Page Banner -->
@@ -44,7 +44,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-blog">
                         <div class="blog-image">
-                            <a href="{% url 'core:blog-detail' blog.slug %}"><img src="{{ blog.image.url }}" alt="image"></a>
+                            <a href="{% url 'core:blog-detail' blog.slug %}"><img src="{{ blog.image.url }}" style="height: 280px;" alt="image"></a>
 
                             <div class="tag">{{ blog.created_at|date:"d M" }}</div>
                         </div>
@@ -52,7 +52,7 @@
                             <h3>
                                 <a href="{% url 'core:blog-detail' blog.slug %}">{{ blog.title }}</a>
                             </h3>
-                            <p>{{ blog.mini_description|truncatewords:30 }}</p>
+                            <p style="height: 110px;">{{ blog.mini_description|truncatewords:30 }}</p>
                             <!-- <a href="{% url 'core:blog-detail' blog.slug %}" class="blog-btn">Read More</a> -->
 
                             <ul class="entry-meta">

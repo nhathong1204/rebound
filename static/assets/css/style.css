@@ -2308,6 +2308,7 @@ Gallery Area CSS
 }
 .single-gallery .content .icon {
   margin-top: 15px;
+  float: right;
 }
 .single-gallery .content .icon a i {
   display: inline-block;

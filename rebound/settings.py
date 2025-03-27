@@ -36,8 +36,11 @@ SECRET_KEY = env("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [] if not env("ALLOWED_HOSTS") else env("ALLOWED_HOSTS").split(",")
+DOMAIN = "https://reboundsportsmed.com"
 
+SITE_NAME = "ReboundSportsMed"
+
+ALLOWED_HOSTS = [] if not env("ALLOWED_HOSTS") else env("ALLOWED_HOSTS").split(",")
 
 # Application definition
 
@@ -49,6 +52,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django.contrib.sites",
+    "django.contrib.sitemaps",
 
     # custom apps
     "core",
@@ -251,24 +256,19 @@ JAZZMIN_UI_TWEAKS = {
 
 # CKEditor settings
 CKEDITOR_UPLOAD_PATH = "uploads/"
-CKEDITOR_ALLOW_NONIMAGE_FILES = False
-CKEDITOR_RESTRICT_BY_USER = (
-    True  # Files can only be found within the user they uploaded to
-)
 CKEDITOR_CONFIGS = {
     "default": {
         "language": "vi",
         "skin": "moono",
         "codeSnippet_theme": "pojoaque",
         "toolbar": "all",
-        "filebrowserBrowseUrl": "/list-images-page/",
-        "filebrowserUploadUrl": "/upload-ck-image-gc/",
+        "filebrowserBrowseUrl": "/ckeditor/browse/",
+        "filebrowserUploadUrl": "/ckeditor/upload/",
         "extraPlugins": ", ".join(
             [
                 "codesnippet",
                 "widget",
                 "dialog",
-                "uploadimage",
             ]
         ),
     }
@@ -278,3 +278,5 @@ CKEDITOR_CONFIGS = {
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
+
+SITE_ID =1
